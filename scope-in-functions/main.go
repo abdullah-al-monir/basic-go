@@ -2,6 +2,8 @@ package main
 
 import (
 	"fmt"
+
+	"example.go/mathlib"
 )
 
 /*
@@ -46,4 +48,5 @@ func main() {
 	//block scope
 	// addNumbers(b,z)
 
+	mathlib.Add(8,5)
 }
